@@ -12,8 +12,8 @@ def get_the_values(groceries)
   items = []
   groceries.each do |key, value|
     value.each do |i|
-      return i  
+      items << i  
     end
   end
-
+  items 
 end
