@@ -9,11 +9,14 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  items = []
-  groceries.each do |key, value|
-    value.each do |i|
-      items << i  
-    end
-  end
-  items 
+  
+  groceries.values 
+  
+  # items = []
+  # groceries.each do |key, value|
+  #   value.each do |i|
+  #     items << i  
+  #   end
+  # end
+  # items 
 end
