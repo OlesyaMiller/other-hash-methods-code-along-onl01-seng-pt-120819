@@ -13,5 +13,5 @@ def get_the_keys(groceries)
   groceries.each do |key, value|
     keys << key 
   end
-  groceries
+  keys 
 end
